@@ -1,5 +1,6 @@
 Here is some example code for this library, I will expand the README more as I get an opportunity.
 
+```
 #include <DS1337RTC.h>
 #include <Time.h>
 #include <Wire.h>
@@ -62,6 +63,7 @@ void loop(){
     Serial.println("ALARM on");
     RTC.resetAlarms();
   }
+```
   
   delay(1000);
 }
