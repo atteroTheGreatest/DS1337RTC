@@ -63,7 +63,7 @@ void loop(){
     Serial.println("ALARM on");
     RTC.resetAlarms();
   }
-```
+
   
   delay(1000);
 }
@@ -75,3 +75,4 @@ void printDigits(int digits){
     Serial.print('0');
   Serial.print(digits);
 }
+```
